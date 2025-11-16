@@ -9,6 +9,8 @@ This repository contains a small RAG-style agent that:
 
 ## Quickstart
 
+# OPTION-1: Using main.py file
+
 1. Create a Python virtual environment and activate it.
 2. Install dependencies:
 ```bash
@@ -22,3 +24,7 @@ python index_games.py
 ```bash
 python main.py
 ```
+
+# OPTION-2: Using Jupyter Notebooks
+1. Run the cells inside `Udaplay_01_starter_project.ipynb` notebook to set up the vector database with game data.
+2. Run the cells inside `Udaplay_02_starter_project.ipynb` notebook to build and test the AI agent.
